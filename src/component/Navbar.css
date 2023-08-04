@@ -1,0 +1,30 @@
+.logo{
+    padding: 0 0 0 10px;
+    font-family: Helvetica;
+    font-size:1.2em;
+    font-weight:600;
+}
+.navbar,.newNavbar{
+    background:rgb(42, 41, 41);
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:45%;
+    margin:auto;
+}
+.newNavbar{
+background:white;
+color:black;
+}
+.icons_nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:10%;
+    padding: 0 20px 0 0 ;
+}
+.icons:hover{
+cursor:pointer;
+
+}

@@ -1,0 +1,21 @@
+ 
+.circle_outline{
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding:1rem;
+flex-wrap: wrap;
+
+}
+.circle_outline img{
+    width: 90px;
+    height:auto;
+    border-radius:50%;
+    border: 5px dotted  rgb(239, 24, 24);
+
+}
+.circle p{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}

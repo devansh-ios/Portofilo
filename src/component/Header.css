@@ -1,0 +1,24 @@
+.header{
+background:black;
+color:white;
+font-family: Helvetica;
+display: flex;
+justify-content: space-between;
+width:45%;
+align-items: center;
+margin:auto;
+
+}
+.time_section{
+    margin-left:10px;
+}
+
+.icons_container{
+    width:25%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+   margin:0 10px 0 0 ;
+}
+
+ 

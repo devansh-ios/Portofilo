@@ -1,0 +1,75 @@
+.introContainer,.introContainer_black{
+    background: white;
+    color:black;
+    width:45%;
+  margin:  auto;
+  padding:1rem 0 1rem 0;
+}
+ .introContainer Button{
+    background:rgb(156, 152, 152);
+    color:white;
+    font-family:Arial, Helvetica, sans-serif  !important; 
+    font-size:0.8em !important;
+    margin:1rem;
+ }
+ .introContainer Button:hover{
+    background:rgb(32, 31, 31) !important;
+    color:white !important;
+    box-shadow:2px 2px 5px black;
+ }
+.introContainer_black{
+    background:black;
+    color:white;
+}
+.introContainer_black Button{
+    background:rgb(42, 41, 41);
+    color:white;
+    font-family:Arial, Helvetica, sans-serif  !important; 
+    font-size:0.8em !important;
+    margin:1rem;
+}
+.secondContainer{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+  .pp{
+    height:auto;
+    width:18%;
+    border-radius:50%;
+   
+      
+}
+.follower-info{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content:space-between;
+
+}
+.follower-info span{
+    display: block;
+    text-align:center;
+}
+.intro{
+    width:50%;
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+.intro p:nth-child(1){
+    margin: 0.5rem 0 0 1.5rem;
+}
+.intro p{
+    margin: 0 0 0  1.5rem;
+
+}
+.button_div{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}

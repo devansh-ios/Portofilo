@@ -1,0 +1,32 @@
+.overlay_detail {
+  position: absolute;
+  height: 95vh;
+  width: 45%;
+  top:3.9%;
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+background-position: center;
+background-repeat: no-repeat;
+  
+}
+.overlay_detail p {
+    position: inherit;
+    font-family: Montserrat;
+    font-weight:bold;
+    color:white;
+    text-align:left;
+    letter-spacing: 1px;
+  width:350px;
+  margin: 100px  auto auto 30px;
+line-height: 1.5;
+
+}
+.closeIcon{
+color:white;
+margin:10px auto auto 90%;
+cursor: pointer;
+
+}
+
+.overlay_hide{
+  display: none;
+}

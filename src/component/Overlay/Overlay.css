@@ -15,8 +15,8 @@ background-repeat: no-repeat;
     color:white;
     text-align:left;
     letter-spacing: 1px;
-  width:350px;
-  margin: 100px  auto auto 30px;
+  width:400px;
+  margin: 40px  auto auto 30px;
 line-height: 1.5;
 
 }
@@ -30,3 +30,4 @@ cursor: pointer;
 .overlay_hide{
   display: none;
 }
+ 

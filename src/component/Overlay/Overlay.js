@@ -2,7 +2,7 @@ import React from "react";
 import "./Overlay.css";
 import { useState } from "react";
 import CloseIcon from "@mui/icons-material/Close";
-const Overlay = ({ desc,show }) => {
+const Overlay = ({ desc }) => {
   const [hide, setHide] = useState(true);
   return (
     <div className={hide ? "overlay_detail" : "overlay_hide"}>
@@ -13,7 +13,7 @@ const Overlay = ({ desc,show }) => {
         className="closeIcon"
         sx={{ fontSize: 40 }}
       />
-      <p>{desc}</p>
+      {desc}
     </div>
   );
 };

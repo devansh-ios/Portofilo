@@ -1,7 +1,7 @@
 import React from "react";
 import Intro from "./Intro";
 import NightsStayIcon from "@mui/icons-material/NightsStay";
-import MenuIcon from "@mui/icons-material/Menu";
+ 
 import LightModeIcon from "@mui/icons-material/LightMode";
 import "./Navbar.css";
 import { useState } from "react";
@@ -28,7 +28,6 @@ const Navbar = () => {
               }}
             />
           )}
-          <MenuIcon className=" icons Menuicons" />
         </div>
       </div>
       <Intro color={color} />

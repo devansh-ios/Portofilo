@@ -1,0 +1,14 @@
+.imageContainer{
+    width:250px;
+    height:auto;  
+}
+.button_container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.postContainer{
+    padding:0.5rem;
+  border:2px dashed ;
+  border-radius: 25px;
+}

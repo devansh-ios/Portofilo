@@ -1,7 +1,7 @@
 import React from "react";
 import Intro from "./Intro";
 import NightsStayIcon from "@mui/icons-material/NightsStay";
- 
+import Project from "../component/project/Project" 
 import LightModeIcon from "@mui/icons-material/LightMode";
 import "./Navbar.css";
 import { useState } from "react";
@@ -32,6 +32,7 @@ const Navbar = () => {
       </div>
       <Intro color={color} />
       <Story color={color} />
+      <Project color={color}/>
     </>
   );
 };

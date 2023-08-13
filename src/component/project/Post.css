@@ -27,3 +27,8 @@
     color:white;
 
 }
+@media(max-width:900px){
+.postContainer{
+    margin-bottom:1rem;
+}
+}

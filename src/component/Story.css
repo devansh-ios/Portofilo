@@ -18,5 +18,12 @@
     overflow-x:scroll;
  
 }
-
+@media(max-width:900px){
+    .storyContainer, .storyContainer_black{
+        width:100%;
+    }
+    .circleContainer{
+        height:200px;
+    }
+}
  

@@ -73,3 +73,13 @@
     flex-wrap: wrap;
 
 }
+@media(max-width:900px){
+.introContainer, .introContainer_black{
+    width:100%;
+}
+.follower-info{
+    width:70%;
+    justify-content: space-evenly;
+    font-size:0.8em;
+}
+}

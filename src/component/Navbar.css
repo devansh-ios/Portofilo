@@ -28,3 +28,11 @@ color:black;
 cursor:pointer;
 
 }
+@media(max-width:900px){
+    .navbar{
+        width:100%;
+    }
+    .newNavbar{
+        width:100%;
+    }
+}

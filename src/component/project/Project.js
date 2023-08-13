@@ -15,7 +15,7 @@ const Project = ({ color }) => {
         <hr></hr>
         <div className="postBag">
           <Post img={nasa} title="ReactSpace"  codeLink="https://codesandbox.io/s/determined-morning-lgf7mc" liveLink="https://lgf7mc.csb.app/"/>
-          <Post img={portfolio} title="Portfolio" codeLink="https://github.com/devansh-ios/Portofilo" />
+          <Post img={portfolio} title="Portfolio" codeLink="https://github.com/devansh-ios/Portofilo"  liveLin="https://3devansh-portfolio3.netlify.app"k/>
           <Post img={buyBooks} title="BuyBooks"  codeLink="https://github.com/devansh-ios/BuyBook" liveLink="https://tgubm0.csb.app/"/>
           <Post img={imageKart} title="ImageKart" codeLink="https://github.com/devansh-ios/photosearch" liveLink="https://imagekart.netlify.app"/>
           <Post img={dogsper} title="DogSper"  codeLink="https://codesandbox.io/s/dogsper-pet-treat-website-v0sfh9" liveLink="https://v0sfh9.csb.app/"/>

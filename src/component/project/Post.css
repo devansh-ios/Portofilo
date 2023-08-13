@@ -1,14 +1,29 @@
 .imageContainer{
-    width:250px;
+    width:235px;
     height:auto;  
 }
 .button_container{
     display:flex;
-    justify-content:space-between;
+    margin:auto;
+    justify-content:space-around;
     align-items:center;
 }
 .postContainer{
     padding:0.5rem;
   border:2px dashed ;
   border-radius: 25px;
+}
+
+.heading{
+    margin:auto;
+   text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+.button_container a{
+    text-decoration: none;
+    color:white;
+
 }

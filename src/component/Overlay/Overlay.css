@@ -1,11 +1,12 @@
 .overlay_detail {
   position: absolute;
   height: 95vh;
-  width: 45%;
+  width: 50%;
   top:3.9%;
   background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
-background-position: center;
+background-position: fixed;
 background-repeat: no-repeat;
+
   
 }
 .overlay_detail p {

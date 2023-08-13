@@ -10,13 +10,13 @@ const Intro = ({ color }) => {
 
         <div className="follower-info">
           <p>
-            <span>3</span> Posts
+            <span>6 ></span> Projects
           </p>
           <p>
-            <span>58</span> Followers
+            <span>100 ></span> Leetcode
           </p>
           <p>
-            <span>53</span> Following
+            <span>10 ></span> Certificates  
           </p>
         </div>
       </div>
@@ -24,7 +24,7 @@ const Intro = ({ color }) => {
       <div className="intro">
         <p>devansh</p>
         <p> Front - end Developer </p>
-        <p>Hihi..</p>
+        
       </div>
       <div className="button_div">
         <Button>

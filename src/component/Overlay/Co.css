@@ -1,0 +1,20 @@
+.socialContainer{
+    position:absolute;
+  top:55%;
+  width:50%;
+  display:flex;
+  justify-content:space-evenly;
+
+}
+.socialContainer div:hover{
+box-shadow:2px 2px 5px black;
+border-radius:5px;
+cursor:pointer;
+color:rgba(32, 78, 228, 0.899);
+}
+.socialContainer div:nth-child(2):hover{
+color:rgb(215, 130, 238);
+}
+.socialContainer div:nth-child(3):hover{
+    color:rgb(231, 103, 103);
+    }

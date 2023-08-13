@@ -18,3 +18,9 @@ color:rgb(215, 130, 238);
 .socialContainer div:nth-child(3):hover{
     color:rgb(231, 103, 103);
     }
+
+    @media (max-width:900px) {
+      .socialContainer{
+         top:37%;
+      }
+    }

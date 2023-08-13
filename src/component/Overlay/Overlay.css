@@ -1,12 +1,12 @@
 .overlay_detail {
   position: absolute;
-  height: 95vh;
+  height: 100%;
   width: 50%;
   top:3.9%;
   background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
-background-position: fixed;
+background-position:  center;
 background-repeat: no-repeat;
-
+background-attachment: fixed;
   
 }
 .overlay_detail p {
@@ -30,5 +30,16 @@ cursor: pointer;
 
 .overlay_hide{
   display: none;
+}
+@media(max-width:900px){
+.overlay_detail{
+  width:100%;
+  font-size:0.8em;
+ 
+}
+.overlay_detail p {
+  width:90%;
+  margin:10px;
+}
 }
  
